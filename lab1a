@@ -1,0 +1,14 @@
+My_list1 = []
+My_list2 =[]
+
+
+for i in range(10):
+    items = int(input("Enter the number or -1 to exit :  "))
+    if(int(items)!=-1):
+        My_list1.append(int(items))
+    else:
+        break
+for i in range(len(My_list1)):
+    if(My_list1[i]%2)==0:
+        My_list2.append(My_list1[i])
+print(My_list2)
